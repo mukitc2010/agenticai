@@ -20,7 +20,15 @@
             <div id="chat-messages" class="chat-messages">
                 <div class="message system-message">
                     <div class="message-content">
-                        <strong>AGI Astronaut:</strong> Hello! I am your virtual astronaut, ready to assist with complex mathematical physics problems, orbital mechanics, aerospace engineering, and space exploration challenges. How can I help you today?
+                        <strong>AGI Astronaut:</strong> Hello! I am your virtual astronaut, ready to assist with complex mathematical physics problems, orbital mechanics, aerospace engineering, and space exploration challenges. 
+                        <br><br>
+                        You can interact with me in two ways:
+                        <ul>
+                            <li><strong>Full Mode:</strong> Connect to a local Ollama instance with the space-agi-astronaut model for unlimited capabilities</li>
+                            <li><strong>Demo Mode:</strong> Try demo responses about physics, orbits, and space topics (currently active)</li>
+                        </ul>
+                        <br>
+                        How can I help you today?
                     </div>
                 </div>
             </div>
@@ -28,7 +36,7 @@
             <div class="input-container">
                 <textarea
                     id="user-input"
-                    placeholder="Ask me about Navier-Stokes equations, orbital mechanics, relativity, quantum physics, or any space-related problem..."
+                    placeholder="Try: 'Explain Schwarzschild radius', 'Solve the Navier-Stokes equation', 'Orbital mechanics explained', or ask any physics/space question..."
                     rows="3"
                 ></textarea>
                 <button id="send-button" onclick="sendMessage()">Send</button>
@@ -47,14 +55,32 @@
                 <li>📐 Advanced calculus and numerical methods</li>
             </ul>
 
-            <h3>Getting Started</h3>
+            <h3>Current Status</h3>
+            <p id="mode-status" style="color: #ff9800; font-weight: bold;">
+                🔗 Demo Mode Active - Limited responses available
+            </p>
+
+            <h3>To Enable Full Functionality</h3>
             <ol>
-                <li>Ensure Ollama is running locally</li>
-                <li>Load the model: <code>ollama run space-agi-astronaut</code></li>
-                <li>Start asking questions!</li>
+                <li>Install <a href="https://ollama.ai" target="_blank" style="color: #00d4ff; text-decoration: underline;">Ollama</a></li>
+                <li>Download and run the model:
+                    <br><code>ollama run space-agi-astronaut</code>
+                </li>
+                <li>Refresh this page - it will automatically detect the connection</li>
             </ol>
 
-            <p><strong>Note:</strong> This interface requires Ollama running on localhost:11434</p>
+            <h3>Example Questions</h3>
+            <ul>
+                <li>Solve the Navier-Stokes equation for incompressible flow</li>
+                <li>Calculate the Schwarzschild radius for a 10 solar mass black hole</li>
+                <li>Explain orbital mechanics and Kepler's laws</li>
+                <li>Derive the Schrödinger equation for the hydrogen atom</li>
+                <li>What is the relativistic rocket equation?</li>
+            </ul>
+
+            <p style="margin-top: 20px; color: #b0b0b0;">
+                <strong>Note:</strong> This interface features automatic Ollama detection. Demo mode provides sample responses. Full intelligence requires local Ollama connection.
+            </p>
         </div>
     </div>
 

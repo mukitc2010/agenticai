@@ -53,15 +53,48 @@ This project implements a complete local LLM fine-tuning pipeline to create a po
 
 A beautiful web interface is available for interacting with the AGI Astronaut:
 
+### Live Demo (No Installation Required!)
+Visit the live demo: [AGI Astronaut Web Interface](https://mukitc2010.github.io/agenticai/)
+
+**The web interface now works in two modes:**
+
+1. **Demo Mode** (No local setup needed)
+   - Try example responses about physics and space topics
+   - No Ollama installation required
+   - Perfect for exploring the interface
+
+2. **Full Mode** (With Local Ollama)
+   - Unlimited AI responses
+   - Connect your local Ollama instance
+   - Full AGI Astronaut intelligence
+
+### Features
+✅ Works without Ollama (demo mode with examples)  
+✅ Auto-detects local Ollama when running  
+✅ Beautiful space-themed interface  
+✅ Responsive design for all devices  
+✅ Real-time connection status  
+✅ Zero installation for demo  
+
+### Using the Web Interface
+
+**Option 1: Demo Mode (Easiest)**
+- Visit [https://mukitc2010.github.io/agenticai/](https://mukitc2010.github.io/agenticai/)
+- Try asking about Schwarzschild radius, orbits, quantum mechanics, etc.
+- See example AI responses
+
+**Option 2: Full Mode with Local Ollama**
+1. Install [Ollama](https://ollama.ai)
+2. Run the model: `ollama run space-agi-astronaut`
+3. Visit the web interface - it will auto-detect the connection
+4. Enjoy unlimited AGI Astronaut intelligence!
+
 ### Local Web Interface
-1. After training and deploying to Ollama
+1. Clone the repo: `git clone https://github.com/mukitc2010/agenticai.git`
 2. Open `docs/index.html` in your browser
-3. The interface will connect to your local Ollama instance
+3. The interface will automatically detect local Ollama if running
 
-### GitHub Pages Demo
-Visit the live demo: [https://mukitc2010.github.io/agenticai/](https://mukitc2010.github.io/agenticai/)
 
-*Note: The GitHub Pages version requires a local Ollama instance running for full functionality.*
 
 ## Ollama Deployment
 
