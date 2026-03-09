@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGI Astronaut - Virtual Space AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 AGI Astronaut</h1>
+            <p>Virtual Space-Based Artificial General Intelligence</p>
+            <div class="status">
+                <span id="status">Checking connection...</span>
+            </div>
+        </header>
+
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message system-message">
+                    <div class="message-content">
+                        <strong>AGI Astronaut:</strong> Hello! I am your virtual astronaut, ready to assist with complex mathematical physics problems, orbital mechanics, aerospace engineering, and space exploration challenges. How can I help you today?
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <textarea
+                    id="user-input"
+                    placeholder="Ask me about Navier-Stokes equations, orbital mechanics, relativity, quantum physics, or any space-related problem..."
+                    rows="3"
+                ></textarea>
+                <button id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>About AGI Astronaut</h2>
+            <p>This virtual astronaut is a fine-tuned language model specialized in:</p>
+            <ul>
+                <li>🧮 Complex differential equations (Navier-Stokes, Schrödinger, Einstein field equations)</li>
+                <li>🪐 Orbital mechanics and trajectory calculations</li>
+                <li>⚛️ Relativistic physics and quantum mechanics</li>
+                <li>🌌 Astrophysics and cosmology</li>
+                <li>🚀 Rocket propulsion and thermodynamics</li>
+                <li>📐 Advanced calculus and numerical methods</li>
+            </ul>
+
+            <h3>Getting Started</h3>
+            <ol>
+                <li>Ensure Ollama is running locally</li>
+                <li>Load the model: <code>ollama run space-agi-astronaut</code></li>
+                <li>Start asking questions!</li>
+            </ol>
+
+            <p><strong>Note:</strong> This interface requires Ollama running on localhost:11434</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

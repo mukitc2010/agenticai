@@ -49,6 +49,28 @@ This project implements a complete local LLM fine-tuning pipeline to create a po
    # Edit .env with your Hugging Face token and Supabase credentials
    ```
 
+## Web Interface
+
+A beautiful web interface is available for interacting with the AGI Astronaut:
+
+### Local Web Interface
+1. After training and deploying to Ollama
+2. Open `docs/index.html` in your browser
+3. The interface will connect to your local Ollama instance
+
+### GitHub Pages Demo
+Visit the live demo: [https://mukitc2010.github.io/agenticai/](https://mukitc2010.github.io/agenticai/)
+
+*Note: The GitHub Pages version requires a local Ollama instance running for full functionality.*
+
+## Ollama Deployment
+
+After training, create the model in Ollama:
+```bash
+ollama create space-agi-astronaut -f Modelfile
+ollama run space-agi-astronaut
+```
+
 ## Usage
 
 ### Training Pipeline
@@ -92,13 +114,9 @@ This will:
    python src/evaluate_agi.py
    ```
 
-### Ollama Deployment
+### Web Interface
 
-After training, create the model in Ollama:
-```bash
-ollama create space-agi-astronaut -f Modelfile
-ollama run space-agi-astronaut
-```
+Open `docs/index.html` in your browser to chat with the AGI Astronaut.
 
 ## Dataset
 
