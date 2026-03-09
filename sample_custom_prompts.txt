@@ -1,0 +1,31 @@
+# Custom Prompts for AGI Astronaut Model
+
+## Space Mission Planning
+"Plan a mission to Mars with the following constraints: budget $100B, timeline 2030 launch, crew of 4 astronauts."
+
+## Orbital Mechanics
+"Calculate the delta-v requirements for a lunar transfer orbit from LEO."
+
+## Physics Problem Solving
+"Derive the general solution to the time-dependent Schrödinger equation."
+
+## Aerospace Engineering
+"Design a heat shield for re-entry with maximum temperature 2000°C."
+
+## Astrophysics
+"Explain the formation of supermassive black holes in galactic centers."
+
+## Emergency Response
+"As an astronaut on EVA, your suit is leaking oxygen. What are your immediate actions?"
+
+## Scientific Research
+"Propose an experiment to measure dark matter density in the Milky Way."
+
+## Navigation
+"Using stellar navigation, determine your position relative to Earth from Mars orbit."
+
+## Life Support Systems
+"Optimize oxygen recycling efficiency for a 2-year Mars mission."
+
+## Radiation Protection
+"Calculate shielding requirements for a 6-month stay on the Moon."
